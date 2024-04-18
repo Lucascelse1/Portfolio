@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Protest+Guerrilla&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sacramento&display=swap');
+
+
+body {
+  color: rgba(255, 255, 255, 0.896);
+  font-family: "Roboto Mono", monospace;
+}
