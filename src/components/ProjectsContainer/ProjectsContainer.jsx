@@ -2,6 +2,7 @@ import { useState } from "react"
 import { getProjects } from "../../projectsMock"
 import { useEffect } from "react"
 import ProjectList from "../ProjectList/ProjectList"
+import { GoCode } from "react-icons/go";
 
 
 const ProjectsContainer = () => {
@@ -19,8 +20,10 @@ const ProjectsContainer = () => {
     }) 
 
     return (
-        <section className="flex flex-col items-center gap-y-10">
-            <h1>Projects</h1>
+        <section className="flex flex-col items-center gap-y-10 font-['Anta']">
+            <div className="w-9/12 flex justify-start">
+                <h1 className="flex items-center text-4xl gap-x-4"> <GoCode/> PROYECTOS  </h1>
+            </div>
             <ProjectList projects={ projects } />
         </section>
     )
