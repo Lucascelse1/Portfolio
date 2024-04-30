@@ -15,7 +15,7 @@ const Project = ({ name, image, technologies, description, shortdescription, enl
     return (
         <article className="w-9/12 flex justify-around items-center border rounded-lg p-4">
             {!isModalOpen && (
-                <article className="w-full h-full flex justify-around items-center">
+                <article className="w-full h-full flex justify-around items-center fade-in">
                     <div className="w-[40%] h-full">
                         <h1>Nombre: {name}</h1>
                         <h2 className="mt-8">Tecnologias: {technologies}</h2>

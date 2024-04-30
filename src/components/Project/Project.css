@@ -1,29 +1,26 @@
-.flip-vertical-bck {
-    -webkit-animation: flip-vertical-bck 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-    animation: flip-vertical-bck 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+.fade-in {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
-@-webkit-keyframes flip-vertical-bck {
+
+@-webkit-keyframes fade-in {
     0% {
-        -webkit-transform: translateZ(0) rotateY(0);
-        transform: translateZ(0) rotateY(0);
+        opacity: 0;
     }
 
     100% {
-        -webkit-transform: translateZ(-260px) rotateY(-180deg);
-        transform: translateZ(-260px) rotateY(-180deg);
+        opacity: 1;
     }
 }
 
-@keyframes flip-vertical-bck {
+@keyframes fade-in {
     0% {
-        -webkit-transform: translateZ(0) rotateY(0);
-        transform: translateZ(0) rotateY(0);
+        opacity: 0;
     }
 
     100% {
-        -webkit-transform: translateZ(-260px) rotateY(-180deg);
-        transform: translateZ(-260px) rotateY(-180deg);
+        opacity: 1;
     }
 }

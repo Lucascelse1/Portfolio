@@ -6,7 +6,7 @@ export const Modal = ( { isOpen, closeModal, description} ) => {
     if (!isOpen) return null
 
     return (
-        <section className="w-full">
+        <section className="w-full fade-in ">
             <div className="w-full flex justify-end">
                 <AiOutlineClose size={ 20 } onClick={ closeModal } cursor={ "pointer" } />
             </div>
