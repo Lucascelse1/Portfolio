@@ -13,7 +13,7 @@ const Project = ({ name, image, technologies, description, shortdescription, enl
     }
 
     return (
-        <article className="w-9/12 flex justify-around items-center border rounded-lg p-4">
+        <article className="w-9/12 flex justify-around items-center">
             {!isModalOpen && (
                 <article className="w-full h-full flex justify-around items-center fade-in">
                     <div className="w-[40%] h-full">
