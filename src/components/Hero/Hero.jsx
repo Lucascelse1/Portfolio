@@ -24,7 +24,7 @@ const Hero = () => {
                 </article>
             </section>
             <section>
-                <img className='rounded-full' src=".\assets\photo-hero.png" alt="" />
+                <img className='rounded-full' src="https://raw.githubusercontent.com/Lucascelse1/Portfolio/refs/heads/main/src/components/Hero/assets/photo-hero.png" alt="" />
             </section>
         </main>
     )
