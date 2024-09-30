@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className='text-7xl'>Lucas Celse</h1>
                     <h3 className='text-2xl'>Front-end Developer</h3>
                 </article>
-                <article className='w-full flex flex-col justify-center gap-y-10 text-lg'>
+                <article className='w-full flex flex-col justify-center gap-y-10 text-center text-lg'>
                     <p>+2 años de experiencia especializada en el diseño y desarrollo web, estoy entusiasmado por dar el siguiente paso en mi carrera como programador. Busco activamente mi primera oportunidad profesional para aplicar y expandir mis habilidades en un entorno laboral dinámico y desafiante.</p>
                     <div className='flex gap-x-10 justify-center items-center'>
                         <a href=""><FaGithub className='text-5xl' /></a>
@@ -24,7 +24,7 @@ const Hero = () => {
                 </article>
             </section>
             <section>
-                <img className='rounded-full' src="src\components\Hero\assets\photo-hero.png" alt="" />
+                <img className='rounded-full' src=".\assets\photo-hero.png" alt="" />
             </section>
         </main>
     )
