@@ -16,14 +16,14 @@ const Project = ({ name, image, technologies, description, shortdescription, enl
         <article className="w-9/12 flex justify-around items-center">
             {!isModalOpen && (
                 <article className="w-full h-full flex justify-around items-center fade-in">
-                    <div className="w-[40%] h-full">
+                    <div className="w-2/5 h-4/5">
                         <h1>Nombre: {name}</h1>
                         <h2 className="mt-8">Tecnologias: {technologies}</h2>
                         <h2 className="mt-8"><a href={enlace} target="_blank">Enlace: {enlace}</a></h2>
-                        <p className="mt-8">Descripcion: {shortdescription} <button className="hover:text-black hover:bg-white border p-1" onClick={handleLeerMasClick}>Leer mas...</button></p>
+                        <p className="mt-8">Descripcion: {shortdescription} <button className="hover:text-black hover:bg-white border p-1" onClick={handleLeerMasClick}>Leer mas</button></p>
                     </div>
 
-                    <img className="w-[45%] rounded-lg" src={image} alt="" />
+                    <img className="w-6/12 h-full rounded-lg" src={image} alt="" />
                 </article>
             )}
             {isModalOpen && (

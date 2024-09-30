@@ -1,21 +1,30 @@
+import './Hero.css'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Hero = () => {
     return (
-        <main className="w-full h-[90vh] flex justify-center items-center font-['Anta']">
-            <section className="w-9/12 2xl:w-6/12 flex justify-around">
-                <article className='w-9/12 flex flex-col items-center justify-center text-center gap-y-4'>
-                    <img className='2xl:w-64 w-52 rounded-full' src="https://i.postimg.cc/vH6TFB31/profile-photo.png" alt="" />
-                    <h1 className='2xl:text-6xl text-5xl'>Lucas Celse</h1>
-                    <h3 className='text-xl'>Front-end Developer</h3>
+        <main className="w-full h-[100vh] flex justify-center items-center  gap-x-10">
+            <section className="w-3/12 flex flex-col justify-center items-center gap-y-16">
+                <article className='w-full flex flex-col items-center justify-start text-center gap-y-4'>
+                    <h1 className='text-7xl'>Lucas Celse</h1>
+                    <h3 className='text-2xl'>Front-end Developer</h3>
                 </article>
-                <article className='w-9/12 flex flex-col justify-center gap-y-10 text-lg'>
+                <article className='w-full flex flex-col justify-center gap-y-10 text-lg'>
                     <p>+2 años de experiencia especializada en el diseño y desarrollo web, estoy entusiasmado por dar el siguiente paso en mi carrera como programador. Busco activamente mi primera oportunidad profesional para aplicar y expandir mis habilidades en un entorno laboral dinámico y desafiante.</p>
-                    <div className='flex gap-x-5 items-center'>
-                        <a href=""><img className="w-7" src="https://i.postimg.cc/sXCqS7Cy/kisspng-github-computer-icons-clip-art-gits-5b4d20ab1f4131-145288281531781291128.png" alt="" /></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/lucas-celse-609620212/"><img className="rounded-lg w-7" alt="LinkedIn icon" src='https://i.postimg.cc/x8XfCBrq/linkedin-american-business-logo-social-media-icon-black-pictogram-illustration-isolated-on-white-bac.jpg' /></a>
-                        <a href=""><img className="w-9" src="https://i.postimg.cc/CK1GWJBF/email-309491-1280-1-1-1.png" alt="" /></a>
+                    <div className='flex gap-x-10 justify-center items-center'>
+                        <a href=""><FaGithub className='text-5xl' /></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/lucas-celse-609620212/"><FaLinkedin className='text-5xl' /></a>
+                        <a href=""><AiFillInstagram className='text-5xl' /></a>
+                        <a href=""><IoIosMail className='text-6xl' /></a>
+                        
                     </div>
                 </article>
+            </section>
+            <section>
+                <img className='rounded-full' src="src\components\Hero\assets\photo-hero.png" alt="" />
             </section>
         </main>
     )

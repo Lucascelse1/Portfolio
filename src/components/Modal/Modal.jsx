@@ -10,7 +10,7 @@ export const Modal = ( { isOpen, closeModal, description} ) => {
             <div className="w-full flex justify-end">
                 <AiOutlineClose size={ 20 } onClick={ closeModal } cursor={ "pointer" } />
             </div>
-            <article className="w-full p-4">
+            <article className="w-9/12 p-4 m-auto">
                 <p> { description } </p>
             </article>
         </section>

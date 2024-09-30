@@ -4,7 +4,7 @@ import BackSkillsContainer from "../BackSkillsContainer/BackSkillsContainer";
 
 const Skills = () => {
   return (
-    <section className="bg-white text-black mt-10 w-full flex flex-col items-center gap-y-10 py-10">
+    <section className="m-auto mt-10 w-8/12 flex flex-col items-center gap-y-10 py-10">
       <h1 className="text-5xl w-9/12 flex"><FiCornerDownRight /> Skills</h1>
       <FrontSkillsContainer />
       <article className="w-8/12">

@@ -20,7 +20,7 @@ const ProjectsContainer = () => {
     }) 
 
     return (
-        <section className="flex flex-col items-center gap-y-10 font-['Anta']">
+        <section className="w-9/12 m-auto flex flex-col items-center p-6 gap-y-10 ">
             <div className="w-9/12 flex justify-start">
                 <h1 className="flex items-center text-4xl gap-x-4"> <GoCode/> PROYECTOS  </h1>
             </div>
