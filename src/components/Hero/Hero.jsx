@@ -2,7 +2,7 @@ import './Hero.css'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { AiFillInstagram } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
     return (
@@ -16,8 +16,8 @@ const Hero = () => {
                     <p>+2 años de experiencia especializada en el diseño y desarrollo web, estoy entusiasmado por dar el siguiente paso en mi carrera como programador. Busco activamente mi primera oportunidad profesional para aplicar y expandir mis habilidades en un entorno laboral dinámico y desafiante.</p>
                     <div className='flex gap-x-10 justify-center items-center'>
                         <a href=""><FaGithub className='text-5xl' /></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/lucas-celse-609620212/"><FaLinkedin className='text-5xl' /></a>
-                        <a href=""><AiFillInstagram className='text-5xl' /></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/lucas-celse-609620212/"><FaLinkedin className='text-5xl text-blue-700' /></a>
+                        <a href=""><FaInstagram  className='text-5xl text-pink-600' /></a>
                         <a href=""><IoIosMail className='text-6xl' /></a>
                         
                     </div>
